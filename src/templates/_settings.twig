@@ -1,0 +1,13 @@
+{# @var plugin \kraftwerkdesign\pdfthumbnailer\Pdfthumbnailer #}
+{# @var settings \kraftwerkdesign\pdfthumbnailer\models\Settings #}
+
+{% import "_includes/forms" as forms %}
+
+{{ forms.assetFolderSelectField({
+    label: "Thumbnail Destination Folder"|t('pdf-thumbnailer'),
+    instructions: "Select the folder where PDF thumbnails will be saved"|t('pdf-thumbnailer'),
+    id: 'thumbnailFolderId',
+    name: 'thumbnailFolderId',
+    value: settings.thumbnailFolderId,
+    required: true,
+}) }}

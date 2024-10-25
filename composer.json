@@ -1,0 +1,45 @@
+{
+  "name": "kraftwerk-design/pdf-thumbnailer",
+  "description": "Automatically generates thumbnails for PDF assets in Craft CMS",
+  "type": "craft-plugin",
+  "version": "1.0.0",
+  "require": {
+    "php": "^8.2",
+    "craftcms/cms": "^5.0",
+    "ext-imagick": "*"
+  },
+  "require-dev": {
+    "craftcms/ecs": "dev-main",
+    "craftcms/phpstan": "dev-main",
+    "craftcms/rector": "dev-main"
+  },
+  "autoload": {
+    "psr-4": {
+      "kraftwerkdesign\\pdfthumbnailer\\": "src/"
+    }
+  },
+  "extra": {
+    "name": "PDF Thumbnailer",
+    "handle": "pdf-thumbnailer",
+    "class": "kraftwerkdesign\\pdfthumbnailer\\PdfThumbnailer",
+    "developer": "Kraftwerk Design Inc",
+    "documentationUrl": ""
+  },
+  "scripts": {
+    "check-cs": "ecs check --ansi",
+    "fix-cs": "ecs check --ansi --fix",
+    "phpstan": "phpstan --memory-limit=1G"
+  },
+  "config": {
+    "sort-packages": true,
+    "platform": {
+      "php": "8.2"
+    },
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true,
+      "craftcms/plugin-installer": true
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
