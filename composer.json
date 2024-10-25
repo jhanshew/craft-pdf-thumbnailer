@@ -1,5 +1,5 @@
 {
-  "name": "kraftwerk-design/pdf-thumbnailer",
+  "name": "jhanshew/craft-pdf-thumbnailer",
   "description": "Automatically generates thumbnails for PDF assets in Craft CMS",
   "type": "craft-plugin",
   "version": "1.0.0",
@@ -15,13 +15,13 @@
   },
   "autoload": {
     "psr-4": {
-      "kraftwerkdesign\\pdfthumbnailer\\": "src/"
+      "jhanshew\\craftpdfthumbnailer\\": "src/"
     }
   },
   "extra": {
     "name": "PDF Thumbnailer",
     "handle": "pdf-thumbnailer",
-    "class": "kraftwerkdesign\\pdfthumbnailer\\PdfThumbnailer",
+    "class": "jhanshew\\craftpdfthumbnailer\\PdfThumbnailer",
     "developer": "Kraftwerk Design Inc",
     "documentationUrl": ""
   },

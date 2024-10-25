@@ -1,5 +1,5 @@
 <?php
-namespace kraftwerkdesign\pdfthumbnailer;
+namespace kraftwerkdesign\craftpdfthumbnailer;
 
 use Craft;
 use craft\base\Plugin;

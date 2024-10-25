@@ -1,5 +1,5 @@
 <?php
-namespace kraftwerkdesign\pdfthumbnailer\models;
+namespace jhanshew\craftpdfthumbnailer\models;
 
 use craft\base\Model;
 
